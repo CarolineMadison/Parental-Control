@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import { getVideos } from '../mockData'
 
-export const App = () => {
+export const Parental_Control = () => {
   const [videos, setVideos] = useState([])
 
   useEffect(() => {
