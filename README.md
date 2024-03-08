@@ -4,4 +4,4 @@ As a mother of four, I've grown sick and tired of the YouTube dance with childre
 
 In an effort to bridge the gap between YouTube and YouTube Kids, Parental Control will give me admin access to YouTube's extensive library. A search feature will allow me to browse by topic, or channel, preview the content and, if approved, add it to Parental Control's library. Admin access will also allow me to create and maintain playlists for my child, so that he can login and access videos through a safe interface where I am in control of the content. As a signed in user, my son will be able to filter all of Parental Control's library by topic or channel, view and create playlists, and remove videos from his playlists.
 
-This project is under construction and being build with React.
+This project is under construction and being built with React.
