@@ -1,28 +1,12 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import { getVideos } from '../mockData'
+import { Video } from './videos/video'
 
 export const Parental_Control = () => {
-  const [videos, setVideos] = useState([])
-
-  useEffect(() => {
-    setVideos(getVideos())
-  }, [])
 
   return (
-    videos.map(video =>
-      <div>
-        <h1>{video.title}</h1>
-        <iframe
-          width="853"
-          height="480"
-          src={video.url}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="Embedded youtube"
-        />
-      </div>
-    ))
+    <Video />
+  )
 }
 
 
