@@ -90,3 +90,7 @@ export const getTopics = () => {
 export const getPlaylist_Videos = () => {
     return [...database.playlist_videos]
 }
+
+export const getKids = () => {
+    return [...database.kids]
+}

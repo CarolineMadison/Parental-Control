@@ -1,6 +1,7 @@
 import './App.css'
 import { Video } from './Videos/video'
 import { Playlist } from './Playlists/playlist'
+import { Kid } from './Kids/kid'
 
 export const Parental_Control = () => {
 
@@ -8,6 +9,7 @@ export const Parental_Control = () => {
     <>
       <Video />
       <Playlist />
+      <Kid />
     </>
   )
 }
