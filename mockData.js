@@ -69,7 +69,7 @@ const database = {
         },
         {
             id: 2,
-            playlistId: 1,
+            playlistId: 2,
             videoId: 2 
         }
     ]
@@ -81,4 +81,12 @@ export const getVideos = () => {
 
 export const getPlaylists = () => {
     return [...database.playlists]
+}
+
+export const getTopics = () => {
+    return [...database.topics]
+}
+
+export const getPlaylist_Videos = () => {
+    return [...database.playlist_videos]
 }

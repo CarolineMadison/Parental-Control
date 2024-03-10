@@ -1,11 +1,14 @@
-import { useState, useEffect } from 'react'
 import './App.css'
-import { Video } from './videos/video'
+import { Video } from './Videos/video'
+import { Playlist } from './Playlists/playlist'
 
 export const Parental_Control = () => {
 
   return (
-    <Video />
+    <>
+      <Video />
+      <Playlist />
+    </>
   )
 }
 
