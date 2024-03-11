@@ -25,7 +25,7 @@ export const Video = () => {
                     width="853"
                     height="480"
                     src={video.url}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allow="autoplay"
                     allowFullScreen
                     title="embedded YouTube"
                 />
