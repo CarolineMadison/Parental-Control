@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.kid-friendly-nav {
+    padding: 10px;
+}
+
+.kid-friendly-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Align all list items to the right */
+}
+
+.kid-friendly-nav ul li {
+    display: inline;
+    margin-left: 15px; /* Add some spacing between list items */
+}
+
+.kid-friendly-nav ul li:first-child {
+    margin-left: 0; /* Remove margin for the first list item */
+    float: left; /* Align the first list item to the left */
+    color: black; 
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.kid-friendly-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    border: 2px solid #666;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kid-friendly-nav ul li a:hover {
+    background-color: #ddd;
+}

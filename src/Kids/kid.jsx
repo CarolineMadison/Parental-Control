@@ -1,14 +1,8 @@
-import { useState, useEffect } from "react"
-import { getKids } from "../../mockData"
-
-export const Kid = () => {
-    const [kids, setKids] = useState([])
-
-    useEffect(() => {
-        setKids(getKids())
-    }, [])
-
+export const Kid = ({ kid }) => {
     return (
-        kids.map(k => <div>{k.username}</div>)
+        <>
+            <div>{kid.username}</div>
+            <img src={kid.avatar} alt="robot avatar"/>
+        </>
     )
-}   
+}

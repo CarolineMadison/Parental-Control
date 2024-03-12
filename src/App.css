@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+img {
+  background-color: purple;
+  width: 10%;
+  border-radius: 100%;
+}
+
 /* preloaded logo css for vite */
 /* .logo {
   height: 6em;

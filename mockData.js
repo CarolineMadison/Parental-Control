@@ -27,7 +27,7 @@ const database = {
             id: 1,
             username: "JoeTV",
             birthdate: "03-10-2017",
-            avatar: null,
+            avatar: "../src/assets/Robot_Avatars/15.png",
             userId: 1
         },
         {
@@ -183,4 +183,8 @@ export const getPlaylist_Videos = () => {
 
 export const getKids = () => {
     return [...database.kids]
+}
+
+export const getUsers = () => {
+    return [...database.users]
 }
