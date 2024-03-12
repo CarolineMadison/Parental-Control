@@ -17,20 +17,13 @@ export const Playlist = ({ parentId, kid }) => {
     }, [])
 
     useEffect(() => {
-        //get videos and kids from playlist_videos 
-       
+        //get videos on kids playlist 
+        playlist_videos.map(pv => {
+            if (kid.id === pv.kidId) {
+                const kidsVideos = videos.filter(v => v.id === pv.videoId)
+            }
+        })
     }, [kid])
-
-    //find kid's playlists and videos on those playlists
-    //match kidId to kid.id
-    //match videoId to video.id
-     
-    playlist_videos.map(pv => {
-        if (kid.id === pv.kidId) {
-            const kidsVideos = videos.filter(v => v.id === pv.videoId)
-        }
-    })
-
 
     //get title of playlist
     const findTitleOfPlaylist = (pv) => {

@@ -34,7 +34,7 @@ export const Parental_Control = () => {
   return (
     <>
       <Video />
-      {/* <Playlist parentId={item} kid={kid}/> */}
+      <Playlist parentId={item} kid={kid}/>
       <Kid kid={kid}/>
     </>
   )
