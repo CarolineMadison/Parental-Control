@@ -184,3 +184,7 @@ export const getPlaylist_Videos = () => {
 export const getKids = () => {
     return [...database.kids]
 }
+
+export const getUsers = () => {
+    return [...database.users]
+}
